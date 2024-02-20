@@ -1,0 +1,33 @@
+.table {
+    margin-top: 20px;
+    width: 250px;
+    min-height: 180px;
+    background-color: white;
+    height: fit-content;
+}
+
+.table > h3 {
+    text-align: center;
+    background-color: #FF3131;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.viewMore {
+    width: 250px;
+    height: 35px;
+    background-color: #FF3131;
+    border: none;
+    font-family: 'GlacialIndifference', sans-serif;
+    color: white;
+}
+
+.viewMore:active {
+    background-color: #FF3131;
+}
+
+.tasks {
+    max-height: 320px;
+    overflow-y: auto;
+}

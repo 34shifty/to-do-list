@@ -1,0 +1,64 @@
+@font-face {
+  font-family: GlacialIndifference;
+  src: url(fonts/GlacialIndifference-Regular.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  src: url(fonts/GlacialIndifference-Bold.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  src: url(fonts/GlacialIndifference-Italic.otf);
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: 'GlacialIndifference', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+.wrap {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 62px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+/* .tables {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 20px;
+  user-select: none;
+} */
+
+.tables {
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 500px);
+}
+
+@media only screen and (max-width: 1300px) {
+  .tables {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+}
