@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/to-do-list/static/css/main.b8735b9a.css",
+    "main.js": "/to-do-list/static/js/main.f7114695.js",
+    "static/js/592.fb0012da.chunk.js": "/to-do-list/static/js/592.fb0012da.chunk.js",
+    "static/media/GlacialIndifference-Regular.otf": "/to-do-list/static/media/GlacialIndifference-Regular.663a1c12d079e631b0b2.otf",
+    "static/media/GlacialIndifference-Italic.otf": "/to-do-list/static/media/GlacialIndifference-Italic.fcdf2dfad62092a83c04.otf",
+    "static/media/GlacialIndifference-Bold.otf": "/to-do-list/static/media/GlacialIndifference-Bold.c085c7b0e486e3c99b11.otf",
+    "index.html": "/to-do-list/index.html",
+    "main.b8735b9a.css.map": "/to-do-list/static/css/main.b8735b9a.css.map",
+    "main.f7114695.js.map": "/to-do-list/static/js/main.f7114695.js.map",
+    "592.fb0012da.chunk.js.map": "/to-do-list/static/js/592.fb0012da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8735b9a.css",
+    "static/js/main.f7114695.js"
+  ]
+}
